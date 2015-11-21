@@ -23,7 +23,7 @@ for i in range(0, count+1):
     if i < count:
         print "Retrieving: ", url
     else:
-        print'Last Url: ', url
+        print 'Last Url: ', url
         break
 
     # Retrieve all of the anchor tags
@@ -36,4 +36,3 @@ for i in range(0, count+1):
             url = str(tag.get('href', None))
             break
         pos += 1
-
