@@ -10,7 +10,7 @@ data = uh.read()
 # Convert the XML to a tree
 tree = ET.fromstring(data)
 
-# Priunt how many characters in the XML
+# Print how many characters in the XML
 print 'Retrieved',len(data),'characters'
 
 # Get all of the count values
